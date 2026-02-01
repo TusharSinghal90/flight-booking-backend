@@ -5,7 +5,7 @@ import com.venture.flight_booking.services.BookingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin(origins = "https://tushar-aerobook-system.netlify.app/")
+@CrossOrigin(origins = "https://tushar-aerobook-system.netlify.app")
 @RestController
 @RequestMapping("/api/bookings")
 public class BookingController {
