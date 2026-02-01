@@ -5,7 +5,6 @@ import com.venture.flight_booking.services.BookingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin(origins = "*") 
 @RestController
 @RequestMapping("/api/bookings")
 public class BookingController {
